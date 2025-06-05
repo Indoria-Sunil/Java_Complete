@@ -7,7 +7,7 @@ public class ArraySearching {
         System.out.print("Enter the number to be searched: ");
         int num = input.nextInt();
         if (isPresent(arr, num)) System.out.println("Your number found!");
-        else System.out.println("Your number not present  :/");
+        else System.out.println("Your number not found  :/");
 
     }
 
